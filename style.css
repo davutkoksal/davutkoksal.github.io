@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+
+.navbar {
+  z-index: 9999 !important;
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.navbar.dark {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  z-index: 9999 !important;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  border-bottom: solid red 2px;
+}
+
+.showcase {
+  margin-top: 300px;
+  text-align: center;
+}
+
+#about {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
+}
+
+#about img {
+  height: 300px;
+  border-radius: 50%;
+}
+#education {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
+}
+#about .card {
+  line-height: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.card:hover .p-4 {
+  visibility: visible;
+}
+.p-4 {
+  visibility: hidden;
+}
+
+#menu li a {
+  text-decoration: none !important;
+  color: white;
+}
+
+#menu li a:hover {
+  border-bottom: greenyellow solid 2px;
+  color: white;
+}
+header {
+  background: url(./img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  border-bottom: solid blue 2px;
+}
+
+.progress div {
+  background-color: greenyellow;
+}
+.bottom-line {
+  width: 15rem;
+  height: 3px;
+  background-color: greenyellow;
+  margin: auto;
+}
+.progress {
+  margin-bottom: 1rem;
+}
+.bg-main {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+#contact {
+  border-top: rgba(0, 0, 0, 0.9) 2px solid;
+}
+
+#contact button:hover {
+  color: white;
+}
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
