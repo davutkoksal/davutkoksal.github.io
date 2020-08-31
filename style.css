@@ -146,4 +146,13 @@ header {
     padding: 5px;
     text-align: center;
   }
+    #about {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  #education {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
 }
