@@ -26,9 +26,7 @@ li {
   background-color: rgba(0, 0, 0, 0.8) !important;
   z-index: 9999 !important;
 }
-.navbar ul li {
-  list-style: none;
-}
+
 .navbar ul li a {
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
@@ -42,44 +40,6 @@ li {
 .showcase {
   margin-top: 300px;
   text-align: center;
-}
-
-#about {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
-}
-
-#about img {
-  height: 300px;
-  border-radius: 50%;
-}
-#education {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
-}
-#about .card {
-  line-height: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-}
-
-.card:hover .p-4 {
-  visibility: visible;
-}
-.p-4 {
-  visibility: hidden;
-}
-
-#menu li a {
-  text-decoration: none !important;
-  color: white;
-}
-
-#menu li a:hover {
-  border-bottom: greenyellow solid 2px;
-  color: white;
 }
 header {
   background: url(./img/showcase.jpg);
@@ -100,22 +60,47 @@ header {
   opacity: 0.8;
 }
 
-.nav-link:hover {
-  border-bottom: solid blue 2px;
+#about {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
 }
 
-.progress div {
-  background-color: greenyellow;
+#about img {
+  height: 350px;
+  border-radius: 50%;
 }
-.bottom-line {
+#education {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: rgba(0, 0, 0, 0.9) solid 2px;
+}
+#about .card {
+  line-height: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+#menu h2 {
+  color: rgba(0, 0, 0, 0.9);
+}
+#menu li a {
+  text-decoration: none !important;
+  color: white;
+}
+
+#menu li a:hover {
+  border-bottom: greenyellow solid 3px;
+  color: white;
+}
+
+/* .bottom-line {
   width: 15rem;
   height: 3px;
   background-color: greenyellow;
   margin: auto;
-}
-.progress {
-  margin-bottom: 1rem;
-}
+} */
+
 .bg-main {
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
@@ -146,5 +131,15 @@ header {
   #menu li {
     padding: 5px;
     text-align: center;
+  }
+
+  #about {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
+
+  #education {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
   }
 }
