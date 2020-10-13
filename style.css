@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(241, 241, 241);
+}
 html {
   scroll-behavior: smooth;
 }
@@ -104,8 +107,10 @@ header {
 }
 
 #contact button:hover {
+  opacity: 0.8;
   color: white;
 }
+
 @media (max-width: 600px) {
   .navbar {
     display: flex;
